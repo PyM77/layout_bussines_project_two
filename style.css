@@ -117,7 +117,14 @@ main {
     clear: both;
 }
 
-
+.section__image {
+    width: 1008px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 .main__section1 .section1__image1 {
     background-image: url('img/IMAGE.png');
@@ -126,7 +133,7 @@ main {
     width: 270px;
     height: 180px;
 
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 40px;
 }
 
@@ -134,7 +141,6 @@ main {
     background-image: url('img/IMAGE__two.png');
     background-repeat: no-repeat;
 
-    margin-left: 586px;
     margin-top: 88px;
     
     width: 153px;
